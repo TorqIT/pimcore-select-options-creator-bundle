@@ -1,0 +1,10 @@
+select_options:
+  Color:
+    options:
+      - label: "Red"
+        value: "Red"
+      - label: "Green"
+        value: "Green"
+        name: "Green"
+      - label: "Purple"
+        value: "Purple"      
