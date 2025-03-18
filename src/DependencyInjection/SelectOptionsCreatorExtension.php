@@ -7,7 +7,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class SelectOptionsCreator extends Extension
+class SelectOptionsCreatorExtension extends Extension
 {
     /**
      * {@inheritdoc}

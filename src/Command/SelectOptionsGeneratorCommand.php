@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Command;
+namespace TorqIT\SelectOptionsCreatorBundle\Command;
 
 use Pimcore\Console\AbstractCommand;
 use Pimcore\Model\DataObject\SelectOptions\Config as SelectOptionsConfig;
