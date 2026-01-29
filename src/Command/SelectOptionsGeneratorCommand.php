@@ -20,7 +20,7 @@ class SelectOptionsGeneratorCommand extends AbstractCommand
             ->addOption('force-recreate-options', 'fro', InputOption::VALUE_NONE, 'Force recreate select options.');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $forceRecreateOptions = $input->getOption('force-recreate-options');
 
