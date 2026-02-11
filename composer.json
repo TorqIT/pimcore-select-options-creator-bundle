@@ -1,4 +1,5 @@
 {
+    "license": "POCL",
     "name": "torqit/pimcore-select-options-creator-bundle",
     "type": "pimcore-bundle",
     "require": {

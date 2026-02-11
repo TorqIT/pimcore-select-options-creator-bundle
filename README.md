@@ -17,3 +17,10 @@ Then add the bundle to your `Kernel.php` file:
 1. Create `select_options.yaml` under the config directory. View the example .yaml file in the repo.
 2. Run the generator command by: `bin/console torq:generate-select-options`. You can force re-create the options by adding the `--force-recreate-options` option.
 
+# License
+
+This bundle is licensed under the Pimcore Open Core License (POCL)
+and is intended for use with Pimcore Platform 2025.1 and newer.
+
+See LICENSE.md for full license text.
+
