@@ -1,12 +1,37 @@
 <?php
 
-namespace TorqIT\SelectOptionsCreatorBundle;
+declare(strict_types=1);
 
-use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
-use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;
-use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
+namespace Pimcore\Extension\Bundle {
+    if (!interface_exists(PimcoreBundleAdminClassicInterface::class)) {
+        interface PimcoreBundleAdminClassicInterface {}
+    }
+}
 
-class SelectOptionsCreatorBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
-{
-    use BundleAdminClassicTrait;
+namespace TorqIT\SelectOptionsCreatorBundle {
+    use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
+    use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
+
+    class SelectOptionsCreatorBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
+    {
+        public function getCssPaths(): array
+        {
+            return [];
+        }
+
+        public function getJsPaths(): array
+        {
+            return [];
+        }
+
+        public function getEditmodeJsPaths(): array
+        {
+            return [];
+        }
+
+        public function getEditmodeCssPaths(): array
+        {
+            return [];
+        }
+    }
 }
